@@ -1,0 +1,17 @@
+#Default config
+service:
+  name: api-ecommerce
+  description: ecommerce
+  baseUrl: /api/ecommerce
+  docsBaseUrl: /docs/ecommerce
+  apiVersion: v1
+  appVersion: v1
+
+server:
+  host: 127.0.0.1
+  port: 3000
+  hostname: 127.0.0.1:3000
+  swaggerSchema: http
+
+mongodb:
+  uri: mongodb+srv://NestJS:dwGw8ML49FsfZJBi@cluster0.48m1h.mongodb.net/api-ecommerce?retryWrites=true&w=majority
